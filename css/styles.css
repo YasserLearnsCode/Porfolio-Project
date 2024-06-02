@@ -39,6 +39,64 @@ p {
   font-size: 16px;
   line-height: 30px;
 }
+
+nav {
+  padding: 20px;
+}
+.logo {
+  max-width: 150px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  transition: all 100ms ease-in-out;
+}
+
+nav li:active,
+nav a:hover {
+  color: var(--branding-color);
+}
+
+footer {
+  margin: 60px 0;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background-color: var(--bg-highlight-color);
+  padding: 10px 14px;
+  font-size: 18px;
+  border-radius: 50px;
+}
+
+footer .social-links a:hover {
+  color: white;
+  background-color: var(--branding-color)
+}
 .hero {
   text-align: center;
   background-color: var(--bg-highlight-color);
@@ -112,6 +170,10 @@ p {
 
   h2 {
     font-size: 44px;
+  }
+
+  nav a {
+    font-size: 14px;
   }
 
   .hero {
