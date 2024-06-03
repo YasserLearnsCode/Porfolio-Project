@@ -26,25 +26,105 @@
     />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"></script>
     <link rel="stylesheet" href="css/styles.css" />
-    <title>Contact Me</title>
+    <meta
+      name="description"
+      content="Contact information for Front-end Developer, Yasser Kabulimbo. Yasser is an experienced Front-end engineer based in Canada"
+    />
+    <title>Contact - Yasser Kabulimbo</title>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <img
+          src="images/logo (1).png"
+          class="logo d-none d-md-block"
+          alt="logo for Front-end Developer, Yasser Kabulimbo"
+        />
+        <img
+          src="images/small-logo.png"
+          class="logo d-block d-md-none"
+          alt="logo for Front-end Developer, Yasser Kabulimbo"
+        />
+        <ul>
+          <li><a href="/" title="Homepage">Home</a></li>
+          <li><a href="about.html" title="About Yasser Kabulimbo">About</a></li>
+          <li><a href="work.html" title="Yasser's Work">Work</a></li>
+          <li class="active">
+            <a href="contact.html" title="Contact Yasser Kabulimbo">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
       <div class="content">
         <h1 class="mb-5">Let's get in touch!</h1>
         <h3>Email</h3>
         <p>
-          <a href="mailto:yasserkabulimbo@gmail.com">yasserkabulimbo@gmail.com</a>
+          <a href="mailto:yasserkabulimbo@gmail.com" target="_blank"
+            >yasserkabulimbo@gmail.com</a
+          >
         </p>
         <h3>LinkedIn</h3>
         <p>
-          <a href="https://www.linkedin.com/in/yasserk/" target="_blank">@yasserk</a>
-        </p>
-        <h3>Instagram</h3>
-        <p>
-          <a href="#" target="_blank">@yasserk_</a>
+          <a href="https://www.linkedin.com/in/yasserk/" target="_blank"
+            >@yasserk</a
+          >
         </p>
       </div>
     </div>
+    <footer class="container">
+      <div
+        class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
+      >
+        <div>
+          <h3>Work Inquiry</h3>
+          <p class="text-muted">
+            Let's work together and i'll help you by all my best
+          </p>
+        </div>
+        <div>
+          <a
+            href="/contact.html"
+            class="btn btn-branding mt-3"
+            title="Contact Yasser"
+            >Contact me</a
+          >
+        </div>
+      </div>
+
+      <div class="d-flex justify-content-center mb-5">
+        <a
+          href="mailto:yasserkabulimbo@gmail.com"
+          class="email-link"
+          title="Email Yasser"
+          >yasserkabulimbo@gmail.com</a
+        >
+      </div>
+
+      <div class="social-links d-flex justify-content-center">
+        <a
+          href="www.linkedin.com/in/yasserkabulimbo"
+          target="_blank"
+          title="LinkedIn Profile"
+        >
+          <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+        <a
+          href="https://github.com/YasserLearnsCode"
+          title="_blank"
+          alt="Github Profile"
+        >
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </div>
+      <p class="text-center mt-4">
+        Coded by Yasser Kabulimbo, and is
+        <a
+          href="https://github.com/YasserLearnsCode/Porfolio-Project"
+          target="_blank"
+          >open-sourced on Github</a
+        >
+      </p>
+    </footer>
   </body>
 </html>

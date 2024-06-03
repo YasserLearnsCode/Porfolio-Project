@@ -11,9 +11,34 @@
 <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"></script>
 <link rel="stylesheet" href="css/styles.css">
-  <title>About Me</title>
+  <meta
+      name="description"
+      content="Yasser is an experienced Front-end engineer based in Canada"
+    />
+    <title> About Yasser - Front-end Developer</title>
+  
 </head>
 <body>
+  <div class="container">
+      <nav class="d-flex justify-content-between">
+        <img
+          src="images/logo (1).png"
+          class="logo d-none d-md-block"
+          alt="logo for Front-end Developer, Yasser Kabulimbo"
+        />
+        <img
+          src="images/small-logo.png"
+          class="logo d-block d-md-none"
+          alt="logo for Front-end Developer, Yasser Kabulimbo"
+        />
+        <ul>
+          <li><a href="/" title="Homepage">Home</a></li>
+          <li class="active"><a href="about.html" title="About Yasser Kabulimbo">About</a></li>
+          <li><a href="work.html" title="Yasser's Work">Work</a></li>
+          <li><a href="contact.html" title="Contact Yasser Kabulimbo">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
   <div class="content-container container">
     <div class="row">
       <div class="content"></div>
@@ -21,7 +46,7 @@
   <h1 class="mb-4">Hi, I am Yasser Kabulimbo</h1>
   <h2 class="mb-4">Front-end Developer, based in Canada</h2>
   <p class="mb-5">For anyone who wants to start learning code, this workshop is very interesting. You will be challenged  with different exercises, and everything is well explained, homework and deadlines are good for keep focus</p>
-  <a href="" class="btn btn-branding mb-5">View my projects</a>
+  <a href="/work.html" class="btn btn-branding mb-5">View my projects</a>
   </div>
   <div class="col-lg-6">
   <img src="images/portrait.png" class="img-fluid" alt="photo of Front-end Developer, Yasser Kabulimbo">
@@ -29,5 +54,58 @@
   </div>
   </div>
   </div>
+  <footer class="container">
+        <div
+          class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
+        >
+          <div>
+            <h3>Work Inquiry</h3>
+            <p class="text-muted">
+              Let's work together and i'll help you by all my best
+            </p>
+          </div>
+          <div>
+            <a
+              href="/contact.html"
+              class="btn btn-branding mt-3"
+              title="Contact Yasser"
+              >Contact me</a
+            >
+          </div>
+        </div>
+
+        <div class="d-flex justify-content-center mb-5">
+          <a
+            href="mailto:yasserkabulimbo@gmail.com"
+            class="email-link"
+            title="Email Yasser"
+            target="_blank"
+            >yasserkabulimbo@gmail.com</a
+          >
+        </div>
+
+        <div class="social-links d-flex justify-content-center">
+          <a
+            href="www.linkedin.com/in/yasserkabulimbo"
+            target="_blank"
+            title="LinkedIn Profile"
+          >
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+          <a
+            href="https://github.com/YasserLearnsCode"
+            title="_blank"
+            alt="Github Profile"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </div>
+        <p class="text-center mt-4">
+          Coded by Yasser Kabulimbo, and is
+          <a href="https://github.com/YasserLearnsCode/Porfolio-Project" target="_blank"
+            >open-sourced on Github</a
+          >
+        </p>
+      </footer>
 </body>
 </html>

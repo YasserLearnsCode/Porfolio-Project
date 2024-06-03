@@ -34,7 +34,7 @@ h2 {
   font-size: 64px;
 }
 
-h4 {
+h3 {
   font-size: 48px;
 }
 
@@ -81,7 +81,7 @@ footer {
 footer .contact-box {
   background-color: var(--bg-highlight-color);
   padding: 30px 120px;
-border-radius: 10px;
+  border-radius: 10px;
 }
 
 footer .contact-box p {
@@ -109,12 +109,12 @@ footer .social-links a {
 
 footer .social-links a:hover {
   color: white;
-  background-color: var(--branding-color)
+  background-color: var(--branding-color);
 }
 .hero {
   text-align: center;
   background-color: var(--bg-highlight-color);
-  padding: 160px 40px;
+  padding: 80px 40px;
 }
 
 .hero p {
@@ -133,7 +133,7 @@ footer .social-links a:hover {
 }
 
 .content-container {
-  padding: 160px 40px;
+  padding: 60px 40px;
 }
 
 .content-container h1 {
@@ -168,6 +168,14 @@ footer .social-links a:hover {
 .btn-branding-outline {
   padding: 15px 25px;
   color: var(--branding-color);
+  font-size: 18px;
+  line-height: 27px;
+  border: 1px solid;
+}
+
+.btn:hover {
+  padding: 15px 25px;
+  color: black;
   font-size: 18px;
   line-height: 27px;
   border: 1px solid;
@@ -211,5 +219,4 @@ footer .social-links a:hover {
     padding: 0;
     text-align: center;
   }
-
 }
