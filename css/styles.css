@@ -49,8 +49,10 @@ p {
 nav {
   padding: 20px;
 }
+
 .logo {
   max-width: 150px;
+  margin-top: -40px;
 }
 
 nav ul {
@@ -137,7 +139,6 @@ footer .social-links a:hover {
 .hero .hero-btn {
   background: var(--branding-color);
   color: var(--secondary-color);
-
 }
 
 .content-container {
