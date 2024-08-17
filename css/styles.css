@@ -14,7 +14,7 @@ font-family: "Poppins", sans-serif;
 body {
   font-family: var(--default-font-family);
   color: var(--secondary-color);
-  background-color: rgb(250, 241, 224);
+  background-color: white;
 }
 
 h1,
@@ -76,7 +76,7 @@ nav a {
 
 nav li:active,
 nav a:hover {
-  color: var(--branding-color);
+  color: black;
 }
 
 footer {
@@ -84,7 +84,7 @@ footer {
 }
 
 footer .contact-box {
-  background-color: var(--branding-color);
+  background-color: rgb(251, 246, 238);
   padding: 30px 120px;
   border-radius: 10px;
 }
@@ -100,21 +100,29 @@ footer .email-link {
 }
 
 footer .email-link:hover {
-  color: var(--branding-color);
+  color: black;
 }
 
 footer .social-links a {
   margin: 0 20px;
   color: var(--branding-color);
-  background-color: var(--bg-highlight-color);
+  background-color: var(--secondary-color);
   padding: 10px 14px;
   font-size: 18px;
   border-radius: 50px;
 }
 
+footer p {
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
 footer .social-links a:hover {
   color: var(--branding-color);
-  background-color: var(--secondary-color);
+  background-color: black;
 }
 .hero {
   text-align: center;
@@ -181,6 +189,8 @@ footer .social-links a:hover {
   font-size: 18px;
   line-height: 27px;
   border: 1px solid;
+  border-radius: 5px;
+  background-color: white;
 }
 
 .btn:hover {
