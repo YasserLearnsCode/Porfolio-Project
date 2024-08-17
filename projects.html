@@ -14,6 +14,12 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <script
+      type="text/javascript"
+      src="https://www.dropbox.com/static/api/2/dropins.js"
+      id="dropboxjs"
+      data-app-key="YOUR_APP_KEY"
+    ></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -28,9 +34,9 @@
     <link rel="stylesheet" href="css/styles.css" />
     <meta
       name="description"
-      content="Contact information for Front-end Developer, Yasser Kabulimbo. Yasser is an experienced Front-end engineer based in Canada"
+      content="Display of projects worked on by Front-end Developer Yasser Kabulimbo. Yasser is an experienced Front-end engineer based in Canada"
     />
-    <title>Contact - Yasser Kabulimbo</title>
+    <title>Projects by Yasser Kabulimbo</title>
   </head>
   <body>
     <div class="container">
@@ -48,30 +54,56 @@
         <ul>
           <li><a href="/" title="Homepage">Home</a></li>
           <li><a href="about.html" title="About Yasser Kabulimbo">About</a></li>
-          <li><a href="projects.html" title="Yasser's Work">Projects</a></li>
           <li class="active">
+            <a href="projects.html" title="Yasser's Work">Projects</a>
+          </li>
+          <li>
             <a href="contact.html" title="Contact Yasser Kabulimbo">Contact</a>
           </li>
         </ul>
       </nav>
     </div>
-    <div class="content-container container">
+    <div class="content-container container work">
       <div class="content">
-        <h1 class="mb-5">Let's get in touch!</h1>
-        <h3>Email</h3>
-        <p>
-          <a href="mailto:yasserkabulimbo@gmail.com" target="_blank"
-            >yasserkabulimbo@gmail.com</a
+        <h1 class="mb-5">Take a look at what I've been working on!</h1>
+
+        <div class="row">
+          <div class="col-md-6 mb-4">
+            <a href="https://axisland.netlify.app/" target="_blank">
+              <img
+                src="images/realtor-landing-page.png"
+                class="img-fluid mb-3 rounded"
+                alt="photo of landing page project"
+              />
+            </a>
+            <h3 class="text-center m-0">Web Development</h3>
+            <button>See Projects</button>
+          </div>
+
+          <div class="col-md-6 mb-4">
+            <a href="https://yasser-dictionary-app.netlify.app" target="_blank">
+              <img
+                src="images/dictionary-app.png"
+                class="img-fluid mb-3 rounded"
+                alt="photo of landing page project"
+            /></a>
+            <h3 class="text-center m-0">Marketing</h3>
+            <button>See Projects</button>
+          </div>
+        </div>
+
+      </div>
+
+      <div>
+         <a
+            href="https://drive.google.com/drive-viewer/AKGpihYppx2IG_DQzytdMhBdveP_Aeq3X3aM-Raei1SPeA-TQO2KMnuGT6cJYSZ2rMEG105CRmO3UkpfaO2tu1viMFsXlQZkWfOGQNU=s1600-rw-v1?source=screenshot.guru"
           >
-        </p>
-        <h3>LinkedIn</h3>
-        <p>
-          <a href="https://www.linkedin.com/in/yasserkabulimbo/" target="_blank"
-            >@yasserkabulimbo</a
-          >
-        </p>
+            <img
+              src="https://drive.google.com/drive-viewer/AKGpihYppx2IG_DQzytdMhBdveP_Aeq3X3aM-Raei1SPeA-TQO2KMnuGT6cJYSZ2rMEG105CRmO3UkpfaO2tu1viMFsXlQZkWfOGQNU=s1600-rw-v1"
+            />
       </div>
     </div>
+
     <footer class="container">
       <div
         class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
@@ -79,7 +111,7 @@
         <div>
           <h3>Work Inquiry</h3>
           <p class="text-muted">
-             Let's work together. I will do my best to be of help.
+            Let's work together and I will do my best to help you.
           </p>
         </div>
         <div>
@@ -97,13 +129,14 @@
           href="mailto:yasserkabulimbo@gmail.com"
           class="email-link"
           title="Email Yasser"
+          target="_blank"
           >yasserkabulimbo@gmail.com</a
         >
       </div>
 
       <div class="social-links d-flex justify-content-center">
         <a
-          href="https://www.linkedin.com/in/yasserkabulimbo/"
+          href="www.linkedin.com/in/yasserkabulimbo"
           target="_blank"
           title="LinkedIn Profile"
         >
@@ -122,8 +155,10 @@
         <a
           href="https://github.com/YasserLearnsCode/Porfolio-Project"
           target="_blank"
-          > Github</a
-        > & hosted on Netlify.
+        >
+          Github</a
+        >
+        & hosted on Netlify.
       </p>
     </footer>
   </body>
