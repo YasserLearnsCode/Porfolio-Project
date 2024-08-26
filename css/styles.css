@@ -356,7 +356,7 @@ footer .social-links a:hover {
 
 @media (max-width: 900px) {
   h1 {
-    font-size: 50px;
+    font-size: 48px;
   }
 
   h2 {
@@ -403,5 +403,9 @@ footer .social-links a:hover {
 
   .pdf {
     width: 100%;
+  }
+
+  .branding h1 {
+    font-size: 48px;
   }
 }
